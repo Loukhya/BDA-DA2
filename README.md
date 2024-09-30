@@ -154,3 +154,6 @@ Alternatively, you can run all cells at once:
 
 # outputs:
 ![image](https://github.com/user-attachments/assets/d18c7503-5d15-4d42-813b-77c3db7a51dc)
+
+![image](https://github.com/user-attachments/assets/1ad26f11-2a1e-4c94-90eb-9c4986aab5a9)
+
