@@ -77,3 +77,77 @@ The dataset contains chemical analysis of wines grown in a specific region. The 
 2. **Modify Parameters**: You can adjust the size of the SOM grid or the number of training iterations to experiment with different clusterings.
 3. **Visualize**: The final cell will display a visual representation of the SOM clusters.
 
+Here are the steps on how to execute the Jupyter Notebook file:
+
+---
+
+# How to Execute the Jupyter Notebook
+
+This section will guide you through the steps required to run the `wines_som.ipynb` file in your local environment.
+
+## Prerequisites
+
+Before running the notebook, make sure you have the following installed:
+
+1. **Jupyter Notebook or JupyterLab**  
+   You can install Jupyter using pip if you don't have it:
+   ```bash
+   pip install notebook
+   ```
+
+2. **Required Python Libraries**  
+   The following libraries are required to run the notebook:
+   - `pandas`
+   - `scikit-learn`
+   - `minisom`
+   - `matplotlib`
+
+   Install them using pip:
+   ```bash
+   pip install pandas scikit-learn minisom matplotlib
+   ```
+
+## Steps to Run the Notebook
+
+### 1. Clone or Download the Notebook
+
+- **Download**: If you have the `.ipynb` file, you can directly place it in a directory of your choice.
+- **Clone the Repository**: If it's hosted on a version control system (e.g., GitHub), you can clone the repository.
+
+### 2. Open Jupyter Notebook
+
+- Launch Jupyter Notebook in your terminal by navigating to the directory containing the notebook file and running:
+
+   ```bash
+   jupyter notebook
+   ```
+
+- This will open a browser window showing the list of available notebooks in that directory.
+
+### 3. Load the Notebook
+
+- In the Jupyter Notebook dashboard, navigate to the location where `wines_som.ipynb` is saved.
+- Click on the file name to open the notebook.
+
+### 4. Execute the Notebook
+
+- Once the notebook is open, you can execute it cell by cell:
+   - Click on the first cell and then press `Shift + Enter` to run it.
+   - Keep pressing `Shift + Enter` to run each subsequent cell.
+
+Alternatively, you can run all cells at once:
+- From the menu bar, click on `Cell` and then select `Run All` to execute the entire notebook.
+
+### 5. View the Results
+
+- After running the cells, the notebook will generate visualizations and output based on the Self-Organizing Map (SOM) applied to the wine dataset.
+- These visualizations will show clusters and mappings of the dataset's features.
+
+---
+
+## Additional Notes:
+
+- If you wish to modify or experiment with the parameters (e.g., SOM grid size or the number of iterations), you can adjust the parameters in the respective cells before executing them.
+- For a fresh execution, you can restart the kernel by selecting `Kernel -> Restart & Run All`.
+
+---
