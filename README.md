@@ -151,3 +151,6 @@ Alternatively, you can run all cells at once:
 - For a fresh execution, you can restart the kernel by selecting `Kernel -> Restart & Run All`.
 
 ---
+
+# outputs:
+![image](https://github.com/user-attachments/assets/d18c7503-5d15-4d42-813b-77c3db7a51dc)
